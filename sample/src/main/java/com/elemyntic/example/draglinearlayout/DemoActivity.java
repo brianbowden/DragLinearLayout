@@ -1,11 +1,11 @@
-package com.jmedeisis.example.draglinearlayout;
+package com.elemyntic.example.draglinearlayout;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.jmedeisis.draglinearlayout.DragLinearLayout;
+import com.elemyntic.draglinearlayout.DragLinearLayout;
 
 public class DemoActivity extends AppCompatActivity {
 

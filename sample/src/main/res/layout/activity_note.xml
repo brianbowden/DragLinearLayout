@@ -8,7 +8,7 @@
         android:layout_height="match_parent">
 
         <!-- Additional children for this container are added in .NoteActivity#onCreate(). -->
-        <com.jmedeisis.draglinearlayout.DragLinearLayout
+        <com.elemyntic.draglinearlayout.DragLinearLayout
             android:id="@+id/noteContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 style="@style/ListHeader" />
 
-        </com.jmedeisis.draglinearlayout.DragLinearLayout>
+        </com.elemyntic.draglinearlayout.DragLinearLayout>
 
     </ScrollView>
 

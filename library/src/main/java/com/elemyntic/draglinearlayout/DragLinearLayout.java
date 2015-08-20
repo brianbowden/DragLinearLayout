@@ -1,7 +1,8 @@
-package com.jmedeisis.draglinearlayout;
+package com.elemyntic.draglinearlayout;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
+import android.animation.LayoutTransition;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -46,7 +47,7 @@ public class DragLinearLayout extends LinearLayout {
     private final float nominalDistanceScaled;
 
     /**
-     * Use with {@link com.jmedeisis.draglinearlayout.DragLinearLayout#setOnViewSwapListener(com.jmedeisis.draglinearlayout.DragLinearLayout.OnViewSwapListener)}
+     * Use with {@link com.elemyntic.draglinearlayout.DragLinearLayout#setOnViewSwapListener(com.elemyntic.draglinearlayout.DragLinearLayout.OnViewSwapListener)}
      * to listen for draggable view swaps.
      */
     public interface OnViewSwapListener {
@@ -165,7 +166,7 @@ public class DragLinearLayout extends LinearLayout {
     }
 
     /**
-     * The currently dragged item, if {@link com.jmedeisis.draglinearlayout.DragLinearLayout.DragItem#detecting}.
+     * The currently dragged item, if {@link com.elemyntic.draglinearlayout.DragLinearLayout.DragItem#detecting}.
      */
     private final DragItem draggedItem;
     private final int slop;
@@ -333,7 +334,7 @@ public class DragLinearLayout extends LinearLayout {
     }
 
     /**
-     * See {@link com.jmedeisis.draglinearlayout.DragLinearLayout.OnViewSwapListener}.
+     * See {@link com.elemyntic.draglinearlayout.DragLinearLayout.OnViewSwapListener}.
      */
     public void setOnViewSwapListener(OnViewSwapListener swapListener) {
         this.swapListener = swapListener;
@@ -349,7 +350,7 @@ public class DragLinearLayout extends LinearLayout {
 
     /**
      * Initiates a new {@link #draggedItem} unless the current one is still
-     * {@link com.jmedeisis.draglinearlayout.DragLinearLayout.DragItem#detecting}.
+     * {@link com.elemyntic.draglinearlayout.DragLinearLayout.DragItem#detecting}.
      */
     private void startDetectingDrag(View child) {
         if (draggedItem.detecting)

@@ -20,7 +20,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:22.1.1'
+    compile 'com.android.support:support-v4:22.2.1'
 }
 
 buildscript {
@@ -35,11 +35,11 @@ buildscript {
 
 // https://github.com/novoda/bintray-release/wiki/Configuration-of-the-publish-closure
 publish {
-    userOrg = 'justasm'
-    groupId = 'com.jmedeisis'
+    userOrg = 'elemyntic'
+    groupId = 'com.elemyntic'
     artifactId = 'draglinearlayout'
-    version = "1.1.0"
+    version = "1.1.1"
     licences = ['MIT']
     description = "Android LinearLayout with drag and drop to reorder."
-    website = 'https://github.com/justasm/DragLinearLayout'
+    website = 'https://github.com/brianbowden/DragLinearLayout'
 }

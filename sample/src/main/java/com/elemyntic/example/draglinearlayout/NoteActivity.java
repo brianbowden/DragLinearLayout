@@ -1,4 +1,4 @@
-package com.jmedeisis.example.draglinearlayout;
+package com.elemyntic.example.draglinearlayout;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -18,7 +18,7 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.Toast;
 
-import com.jmedeisis.draglinearlayout.DragLinearLayout;
+import com.elemyntic.draglinearlayout.DragLinearLayout;
 
 public class NoteActivity extends AppCompatActivity {
 
